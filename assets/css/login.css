@@ -1,0 +1,41 @@
+body {
+    background-color: #343A40;
+}
+#login-container {
+    padding-top: 4em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login-container h1 {
+    font-family: lobster;
+    font-size: 3em;
+    color: whitesmoke;
+    padding: 1em;
+}
+#login-box {
+    border: 15px solid white;
+    border-radius: 0.25em;
+    width: 330px;
+    background-color: lightseagreen;
+    border-radius: 0.25em;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#login-box a {
+    margin-bottom: 1em;
+}
+.form-signup {
+    padding-top: 1em;
+}
+.form-input {
+    font-size: 1.2em;
+}
+button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}

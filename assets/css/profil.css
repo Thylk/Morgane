@@ -1,0 +1,45 @@
+#profil-container {
+    width: 100%;
+    min-height: 100vh;
+    /* Photo de Alex Andrews provenant de Pexels */
+    background-image: url(../../assets/img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+#profil-container h1 {
+    font-family: lobster;
+    font-size: 3em;
+    color: whitesmoke;
+    padding: 1em;
+}
+#profil-box {
+    /* color: whitesmoke; */
+    width: 900px;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profil-text {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; */
+    padding-top: 1rem;
+    text-align: justify;
+}
+#img-profil {
+    display: flex;
+    justify-content: center;
+}
+#text {
+    margin-top: 20px;
+    text-align: justify;
+}
+p {
+    font-size: 1.2em;
+}

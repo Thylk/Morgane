@@ -1,0 +1,37 @@
+/* .container {
+    background-color: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.draggable {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+}
+
+.draggable.dragging {
+    opacity: .5;
+} */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sortable { 
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#sortable li { 
+    margin: 3px 3px 3px 0; 
+    padding: 10px; 
+    float: left;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}

@@ -1,0 +1,46 @@
+#contact-container {
+    height: 100vh;
+    padding-top: 4em;
+    background-color: #343A40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#contact-container h1 {
+    font-family: lobster;
+    font-size: 3em;
+    color: whitesmoke;
+    padding: 1em;
+}
+#contact-form {
+    border: 15px solid white;
+    border-radius: 0.25em;
+    background-color: lightblue;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact-form input {
+    width: 300px;
+}
+#contact-form textarea {
+    height: 100px;
+    width: 300px;
+}
+#contact-form button {
+    margin: 20px;
+    font-size: 1.2em;
+}
+.form-signup {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#confirm-mail {
+    padding-top: 1em;
+    font-size: 1.5em;
+    color: limegreen;
+}

@@ -1,0 +1,15 @@
+footer {
+    background-color: #343A40;
+    color: whitesmoke;
+    font-size: 2.5em;
+    text-align: center;
+}
+#footer-container {
+    padding: 1em;
+}
+#footer-container a {
+color: inherit;
+}
+.fa-envelope, .fa-linkedin, .fa-instagram, .fa-facebook {
+    padding-left: 0.5em;
+}
